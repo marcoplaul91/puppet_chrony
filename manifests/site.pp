@@ -4,6 +4,6 @@ node 'marco.agent.io' {
      }
      service { 'httpd':
          ensure => running,
-     enable => false
+     enable => true
      }
  }
